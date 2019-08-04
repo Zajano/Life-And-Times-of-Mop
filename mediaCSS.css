@@ -1,0 +1,19 @@
+
+h1 {
+	text-align: center;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+
+  .card {
+    display: inline-block;
+  }
+}
+/*why doesn't this work on school servers
+img {
+    image-orientation: from-image;
+}
+*/

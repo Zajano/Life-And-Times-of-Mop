@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>mopmopmopmopmopmop</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="contactCSS.css" />
+    <link href="https://fonts.googleapis.com/css?family=Red+Hat+Display&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="bg-dark text-white">
+      <!--navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="mopOriginal.png"><img src="mopLogoSmall.png" title="I spent too much time on this logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html"> Home &nbsp; &nbsp;|<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="life.html">Life So Far &nbsp; &nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="media.html">Mop Media &nbsp; &nbsp;|</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact Mop </a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  <!--comment submission via post and PDF download-->
+  <div id="container" class="container">
+          <div class="row">
+              <div class="col-lg">
+                  <p> As far as I am aware, mop has still not mastered reading. Nonetheless, I'll try to pass on whatever message you wish to send her. </p>
+                  <p> In order to facilitate this process, please download and refer to the provided guide when thinking of how to describe your interpretive dance. </p>
+                    <form method="get" action="speakCat.pdf">
+                        <button type="submit" class="btn btn-secondary">click to download handy guide</button>
+                    </form>
+                    <br>
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-lg">
+                  <form method="POST" class="form-inlin" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php">
+                  <div class="info-form">
+                      <div class="form-group">
+                          <textarea class="form-control" name="comment" rows="10" placeholder="What would you like to tell Mop?"></textarea>
+                      </div>
+                      <button type="submit" class="btn btn-secondary">Send Meowsage</button>
+                  </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  <!--bottom image-->
+    <footer class = "sticky">
+          <!--<img src="bottomMop.png" width="100" height="100" id="bottomMop">-->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
